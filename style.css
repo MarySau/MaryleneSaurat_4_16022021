@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,23 @@ p {
 
 .social {
     max-width: 400px;
+    margin: 20px auto 20px auto;
+}
+
+.partenaire {
+    max-width: 500px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.partenaire-a {
+    color: rgba(255, 255, 255, .6)!important;
+    font-weight: bold;
+}
+
+.partenaire-a:hover {
+    color: white!important;
 }
 
 h2 {
@@ -762,6 +778,10 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -776,6 +796,10 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-yellow {
+    color: #FCCF47!important;
 }
 
 .btn-atomic-tangerine {
