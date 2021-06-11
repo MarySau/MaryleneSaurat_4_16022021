@@ -709,7 +709,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 20px auto 20px auto;
+    margin: 10px auto 10px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .partenaire {
@@ -723,6 +725,11 @@ p {
     color: #000000!important;
     font-weight: bold;
 }
+
+/*.icon-md {
+    width: 48px;
+    height: 48px;
+}*/
 
 .partenaire-a:hover, .icon-md:hover {
     color: white!important;
