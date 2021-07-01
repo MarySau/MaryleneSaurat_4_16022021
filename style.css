@@ -1050,8 +1050,8 @@ footer {
     }
     .img-responsive {
         display: block;
-        width: 100%;
-        height: auto;
+        width: 345px;
+        height: 345px;
     }
     .portfolio-row {
         margin-bottom: 0px;
